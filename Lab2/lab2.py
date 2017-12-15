@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import nltk
 import time
 from nltk.corpus import stopwords
-from nltk.tokenize import wordpunct_tokenize
 import numpy as np
 from sklearn import datasets, metrics
 from sklearn.datasets import fetch_20newsgroups
@@ -26,12 +25,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.utils.extmath import density
 from sklearn.feature_extraction.text import HashingVectorizer, TfidfVectorizer, CountVectorizer
 
+from contrib.text import clean_text
+
 VECTORIZER = 'COUNT'  # 'HASH' or 'TFIDF'
 N_FEATURES = 2 ** 16  # For hashing
-
-
-def clean(text: str, stop: Set[str]) -> str:
-    return ' '.join([w for w in wordpunct_tokenize(text.lower()) if w.lower() not in stop])
 
 
 def get_data(filename: str, cleaned: bool) -> List[List]:
@@ -49,7 +46,7 @@ def get_data(filename: str, cleaned: bool) -> List[List]:
             if label not in {'spam', 'ham'}:
                 raise ValueError('Unknown label: ' + label)
 
-            data.append([clean(text, stop) if cleaned else text, label])
+            data.append([clean_text(text, stop) if cleaned else text, label])
     return data
 
 
