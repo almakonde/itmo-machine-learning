@@ -18,10 +18,10 @@ def get_posts(filename: str) -> List:
 
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
-stop_words.update([c for c in '.,"\'?!:;()[]{}«»|/-'])
+stop_words.update([c for c in '.,"\'?!:;()[]{}'])
 
 posts = get_posts('posts_1.json')
 for post in posts:
-    post["text"] = clean_text(post["text"], stop_words)
+    post["text"] = clean_text(post["text"], stop_words, '«»|-—')
 
-pprint(posts[:1])
+pprint(posts[:10])
