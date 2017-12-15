@@ -24,10 +24,10 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neighbors import NearestCentroid
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.utils.extmath import density
-from sklearn.feature_extraction.text import HashingVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import HashingVectorizer, TfidfVectorizer, CountVectorizer
 
-USE_HASHING = False
-N_FEATURES = 3  # For hashing
+VECTORIZER = 'COUNT'  # 'HASH' or 'TFIDF'
+N_FEATURES = 2 ** 16  # For hashing
 
 
 def clean(text: str, stop: Set[str]) -> str:
@@ -206,15 +206,18 @@ y_train, y_test = data_train.target, data_test.target
 
 print("Extracting features from the training data using a sparse vectorizer")
 t0 = time.time()
-if USE_HASHING:
-    vectorizer = HashingVectorizer(stop_words='english', alternate_sign=False,
-                                   n_features=N_FEATURES)
+if VECTORIZER == 'HASH':
+    vectorizer = HashingVectorizer(stop_words='english', alternate_sign=False, n_features=N_FEATURES)
     X_train = vectorizer.transform(data_train.data)
+elif VECTORIZER == 'TFIDF':
+    vectorizer = TfidfVectorizer(sublinear_tf=True, max_df=0.5, stop_words='english')
+    X_train = vectorizer.fit_transform(data_train.data)
 else:
-    vectorizer = TfidfVectorizer(sublinear_tf=True, max_df=0.5,
-                                 stop_words='english')
+    vectorizer = CountVectorizer()
     X_train = vectorizer.fit_transform(data_train.data)
 
+# Print matrix
+# X_train.toarray().astype(int)
 print("done in %fs" % (time.time() - t0))
 print("n_samples: %d, n_features: %d" % X_train.shape)
 print()
@@ -227,7 +230,7 @@ print("n_samples: %d, n_features: %d" % X_test.shape)
 print()
 
 # mapping from integer feature name to original token string
-if USE_HASHING:
+if VECTORIZER == 'HASH':
     feature_names = None
 else:
     feature_names = vectorizer.get_feature_names()
