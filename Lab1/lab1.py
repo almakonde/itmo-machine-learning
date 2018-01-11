@@ -45,8 +45,8 @@ def step1(cancer):
             diagonal_X_reduced = [cov_X_reduced]
         print(k, "\t",
               str(sum(diagonal_X_reduced) / trace_X).ljust(len(column2)), "\t",
-              print_shorten_array(X_eigenvalues[:k], "%.2f", 50), "\t",
-              print_shorten_array(diagonal_X_reduced, "%.2f", 50))
+              print_shorten_array(X_eigenvalues[:k], "%.2f", 70), "\t",
+              print_shorten_array(diagonal_X_reduced, "%.2f", 70))
     print('=' * 160 + '\n')
 
 
