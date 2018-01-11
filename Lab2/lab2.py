@@ -123,7 +123,7 @@ def get_spam_dataset(filename: str, cleaned: bool = True) -> datasets.base.Bunch
 
 
 def get_news_data():
-    ALL_CATEGORIES = True
+    ALL_CATEGORIES = False
 
     if ALL_CATEGORIES:
         categories = None
@@ -169,11 +169,11 @@ def classify(X_train, X_test, y_train, y_test, feature_names, target_names):
 
     elif DATASET == 'NEWS':
         for clf, name in (
-                (RidgeClassifier(tol=1e-2, solver="sag"), "Ridge Classifier"),  # Slow on NEWS
+                # (RidgeClassifier(tol=1e-2, solver="sag"), "Ridge Classifier"),  # Slow on NEWS
                 (Perceptron(n_iter=50), "Perceptron"),
                 (PassiveAggressiveClassifier(n_iter=50), "Passive-Aggressive"),
                 (KNeighborsClassifier(n_neighbors=10), "kNN"),
-                (RandomForestClassifier(n_estimators=100), "Random forest"),  # Slow on NEWS
+                # (RandomForestClassifier(n_estimators=100), "Random forest"),  # Slow on NEWS
         ):
             print('=' * 80)
             print(name)
@@ -184,22 +184,22 @@ def classify(X_train, X_test, y_train, y_test, feature_names, target_names):
             print("%s penalty" % penalty.upper())
             # Train Liblinear model
             results.append(benchmark(LinearSVC(penalty=penalty, dual=False, tol=1e-3),
-                                     X_train, X_test, y_train, y_test))
+                                     X_train, X_test, y_train, y_test, feature_names, target_names))
 
             # Train SGD model
             results.append(benchmark(SGDClassifier(alpha=.0001, n_iter=50, penalty=penalty),
-                                     X_train, X_test, y_train, y_test))
+                                     X_train, X_test, y_train, y_test, feature_names, target_names))
 
         # Train SGD with Elastic Net penalty
         print('=' * 80)
         print("Elastic-Net penalty")
         results.append(benchmark(SGDClassifier(alpha=.0001, n_iter=50, penalty="elasticnet"),
-                                 X_train, X_test, y_train, y_test))
+                                 X_train, X_test, y_train, y_test, feature_names, target_names))
 
         # Train NearestCentroid without threshold
         print('=' * 80)
         print("NearestCentroid (aka Rocchio classifier)")
-        results.append(benchmark(NearestCentroid(), X_train, X_test, y_train, y_test))
+        results.append(benchmark(NearestCentroid(), X_train, X_test, y_train, y_test, feature_names, target_names))
 
         print('=' * 80)
         print("LinearSVC with L1-based feature selection")
@@ -208,7 +208,7 @@ def classify(X_train, X_test, y_train, y_test, feature_names, target_names):
         results.append(benchmark(Pipeline([
             ('feature_selection', SelectFromModel(LinearSVC(penalty="l1", dual=False, tol=1e-3))),
             ('classification', LinearSVC(penalty="l2"))]),
-            X_train, X_test, y_train, y_test))
+            X_train, X_test, y_train, y_test, feature_names, target_names))
     return results
 
 
