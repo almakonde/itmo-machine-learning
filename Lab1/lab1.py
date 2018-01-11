@@ -9,6 +9,8 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
 
+from contrib.text import print_shorten_array
+
 
 def main():
     cancer = datasets.load_breast_cancer()
