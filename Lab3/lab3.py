@@ -46,12 +46,14 @@ stop_words = set(stopwords.words('russian'))
 stop_words.update([c for c in '.,"\'?!:;()[]{}'])
 stemmer = RussianStemmer(False)
 
-cluster_colors = {0: '#1b9e77', 1: '#d95f02', 2: '#7570b3', 3: '#e7298a', 4: '#66a61e'}
-cluster_names = {0: 'Cluster 1',
-                 1: 'Cluster 2',
-                 2: 'Cluster 3',
-                 3: 'Cluster 4',
-                 4: 'Cluster 5'}
+cluster_colors = {1: '#d95f02', 2: '#7570b3', 3: '#e7298a', 4: '#66a61e', 5: '#1b9e77', 6: "red", 7: "green"}
+cluster_names = {1: 'Cluster 1',
+                 2: 'Cluster 2',
+                 3: 'Cluster 3',
+                 4: 'Cluster 4',
+                 5: 'Cluster 5',
+                 6: 'Cluster 6',
+                 7: 'Cluster 7'}
 
 
 def main():
@@ -75,7 +77,7 @@ def main():
 
     # labels = dataset.target
     # true_k = np.unique(labels).shape[0]
-    true_k = 7
+    # true_k = 7
 
     print("Extracting features from the training dataset using a sparse vectorizer")
     t0 = time()
@@ -113,7 +115,6 @@ def main():
     df = pd.DataFrame(dict(x=xs, y=ys, label=clusters, title=[x.ljust(30) for x in corpus]))
     # plot_clusters_mpl(df, cluster_names, cluster_colors)
     plot_clusters_d3(df, cluster_names, cluster_colors)
-    print("ciao")
 
 
 def get_corpus(filename):
@@ -180,8 +181,8 @@ def get_vectorizer(opts):
                                            alternate_sign=False, norm='l2',
                                            binary=False)
     else:
-        vectorizer = TfidfVectorizer(max_df=0.95, max_features=opts.n_features,
-                                     min_df=0.05, stop_words=list(stop_words),
+        vectorizer = TfidfVectorizer(max_df=0.5, max_features=opts.n_features,
+                                     min_df=1, stop_words=list(stop_words),
                                      use_idf=True,
                                      tokenizer=tokenize_and_stem,
                                      ngram_range=(1, 3))
@@ -281,7 +282,7 @@ def hierarchical_clustering(X):
         plt.show()
 
     # set cut-off
-    last_steps = 10
+    last_steps = 6
     max_d = 2.5  # max_d as in max_distance
 
     fancy_dendrogram(
@@ -294,7 +295,7 @@ def hierarchical_clustering(X):
         annotate_above=1,
         max_d=max_d,  # plot a horizontal cut-off line
     )
-    # plt.show() TODO
+    plt.show()
 
     # Elbow Method
     last = Z[-last_steps:, 2]
