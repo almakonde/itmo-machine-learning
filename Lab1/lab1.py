@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import textwrap
-
 import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
@@ -48,10 +46,6 @@ def step1(cancer):
               print_shorten_array(X_eigenvalues[:k], "%.2f", 50), "\t",
               print_shorten_array(diagonal_X_reduced, "%.2f", 50))
     print('=' * 160 + '\n')
-
-
-def print_shorten_array(array, fmt, width):
-    return textwrap.shorten(str([fmt % x for x in array]), width=width)
 
 
 def plot_two_features(cancer):
