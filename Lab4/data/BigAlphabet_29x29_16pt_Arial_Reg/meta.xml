@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<DataSetParams Type="Characters" />
+<Classes>
+<Class Id="0" Bmp="class-0.bmp" Char="A">
+<Association ClassId="0" Bmp="mutant-0-0-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-1-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-2-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-3-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-4-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-5-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-6-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-7-0.bmp" />
+<Association ClassId="0" Bmp="mutant-0-8-0.bmp" />
+</Class>
+<Class Id="1" Bmp="class-1.bmp" Char="B">
+<Association ClassId="1" Bmp="mutant-1-0-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-1-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-2-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-3-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-4-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-5-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-6-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-7-0.bmp" />
+<Association ClassId="1" Bmp="mutant-1-8-0.bmp" />
+</Class>
+<Class Id="2" Bmp="class-2.bmp" Char="C">
+<Association ClassId="2" Bmp="mutant-2-0-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-1-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-2-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-3-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-4-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-5-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-6-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-7-0.bmp" />
+<Association ClassId="2" Bmp="mutant-2-8-0.bmp" />
+</Class>
+<Class Id="3" Bmp="class-3.bmp" Char="D">
+<Association ClassId="3" Bmp="mutant-3-0-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-1-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-2-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-3-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-4-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-5-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-6-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-7-0.bmp" />
+<Association ClassId="3" Bmp="mutant-3-8-0.bmp" />
+</Class>
+<Class Id="4" Bmp="class-4.bmp" Char="E">
+<Association ClassId="4" Bmp="mutant-4-0-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-1-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-2-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-3-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-4-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-5-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-6-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-7-0.bmp" />
+<Association ClassId="4" Bmp="mutant-4-8-0.bmp" />
+</Class>
+<Class Id="5" Bmp="class-5.bmp" Char="F">
+<Association ClassId="5" Bmp="mutant-5-0-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-1-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-2-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-3-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-4-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-5-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-6-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-7-0.bmp" />
+<Association ClassId="5" Bmp="mutant-5-8-0.bmp" />
+</Class>
+<Class Id="6" Bmp="class-6.bmp" Char="G">
+<Association ClassId="6" Bmp="mutant-6-0-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-1-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-2-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-3-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-4-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-5-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-6-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-7-0.bmp" />
+<Association ClassId="6" Bmp="mutant-6-8-0.bmp" />
+</Class>
+<Class Id="7" Bmp="class-7.bmp" Char="H">
+<Association ClassId="7" Bmp="mutant-7-0-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-1-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-2-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-3-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-4-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-5-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-6-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-7-0.bmp" />
+<Association ClassId="7" Bmp="mutant-7-8-0.bmp" />
+</Class>
+<Class Id="8" Bmp="class-8.bmp" Char="I">
+<Association ClassId="8" Bmp="mutant-8-0-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-1-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-2-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-3-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-4-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-5-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-6-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-7-0.bmp" />
+<Association ClassId="8" Bmp="mutant-8-8-0.bmp" />
+</Class>
+<Class Id="9" Bmp="class-9.bmp" Char="J">
+<Association ClassId="9" Bmp="mutant-9-0-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-1-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-2-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-3-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-4-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-5-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-6-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-7-0.bmp" />
+<Association ClassId="9" Bmp="mutant-9-8-0.bmp" />
+</Class>
+<Class Id="10" Bmp="class-10.bmp" Char="K">
+<Association ClassId="10" Bmp="mutant-10-0-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-1-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-2-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-3-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-4-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-5-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-6-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-7-0.bmp" />
+<Association ClassId="10" Bmp="mutant-10-8-0.bmp" />
+</Class>
+<Class Id="11" Bmp="class-11.bmp" Char="L">
+<Association ClassId="11" Bmp="mutant-11-0-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-1-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-2-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-3-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-4-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-5-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-6-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-7-0.bmp" />
+<Association ClassId="11" Bmp="mutant-11-8-0.bmp" />
+</Class>
+<Class Id="12" Bmp="class-12.bmp" Char="M">
+<Association ClassId="12" Bmp="mutant-12-0-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-1-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-2-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-3-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-4-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-5-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-6-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-7-0.bmp" />
+<Association ClassId="12" Bmp="mutant-12-8-0.bmp" />
+</Class>
+<Class Id="13" Bmp="class-13.bmp" Char="N">
+<Association ClassId="13" Bmp="mutant-13-0-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-1-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-2-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-3-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-4-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-5-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-6-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-7-0.bmp" />
+<Association ClassId="13" Bmp="mutant-13-8-0.bmp" />
+</Class>
+<Class Id="14" Bmp="class-14.bmp" Char="O">
+<Association ClassId="14" Bmp="mutant-14-0-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-1-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-2-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-3-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-4-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-5-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-6-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-7-0.bmp" />
+<Association ClassId="14" Bmp="mutant-14-8-0.bmp" />
+</Class>
+<Class Id="15" Bmp="class-15.bmp" Char="P">
+<Association ClassId="15" Bmp="mutant-15-0-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-1-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-2-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-3-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-4-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-5-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-6-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-7-0.bmp" />
+<Association ClassId="15" Bmp="mutant-15-8-0.bmp" />
+</Class>
+<Class Id="16" Bmp="class-16.bmp" Char="Q">
+<Association ClassId="16" Bmp="mutant-16-0-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-1-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-2-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-3-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-4-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-5-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-6-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-7-0.bmp" />
+<Association ClassId="16" Bmp="mutant-16-8-0.bmp" />
+</Class>
+<Class Id="17" Bmp="class-17.bmp" Char="R">
+<Association ClassId="17" Bmp="mutant-17-0-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-1-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-2-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-3-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-4-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-5-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-6-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-7-0.bmp" />
+<Association ClassId="17" Bmp="mutant-17-8-0.bmp" />
+</Class>
+<Class Id="18" Bmp="class-18.bmp" Char="S">
+<Association ClassId="18" Bmp="mutant-18-0-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-1-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-2-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-3-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-4-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-5-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-6-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-7-0.bmp" />
+<Association ClassId="18" Bmp="mutant-18-8-0.bmp" />
+</Class>
+<Class Id="19" Bmp="class-19.bmp" Char="T">
+<Association ClassId="19" Bmp="mutant-19-0-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-1-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-2-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-3-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-4-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-5-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-6-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-7-0.bmp" />
+<Association ClassId="19" Bmp="mutant-19-8-0.bmp" />
+</Class>
+<Class Id="20" Bmp="class-20.bmp" Char="U">
+<Association ClassId="20" Bmp="mutant-20-0-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-1-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-2-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-3-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-4-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-5-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-6-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-7-0.bmp" />
+<Association ClassId="20" Bmp="mutant-20-8-0.bmp" />
+</Class>
+<Class Id="21" Bmp="class-21.bmp" Char="V">
+<Association ClassId="21" Bmp="mutant-21-0-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-1-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-2-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-3-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-4-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-5-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-6-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-7-0.bmp" />
+<Association ClassId="21" Bmp="mutant-21-8-0.bmp" />
+</Class>
+<Class Id="22" Bmp="class-22.bmp" Char="W">
+<Association ClassId="22" Bmp="mutant-22-0-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-1-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-2-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-3-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-4-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-5-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-6-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-7-0.bmp" />
+<Association ClassId="22" Bmp="mutant-22-8-0.bmp" />
+</Class>
+<Class Id="23" Bmp="class-23.bmp" Char="X">
+<Association ClassId="23" Bmp="mutant-23-0-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-1-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-2-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-3-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-4-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-5-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-6-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-7-0.bmp" />
+<Association ClassId="23" Bmp="mutant-23-8-0.bmp" />
+</Class>
+<Class Id="24" Bmp="class-24.bmp" Char="Y">
+<Association ClassId="24" Bmp="mutant-24-0-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-1-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-2-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-3-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-4-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-5-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-6-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-7-0.bmp" />
+<Association ClassId="24" Bmp="mutant-24-8-0.bmp" />
+</Class>
+<Class Id="25" Bmp="class-25.bmp" Char="Z">
+<Association ClassId="25" Bmp="mutant-25-0-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-1-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-2-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-3-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-4-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-5-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-6-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-7-0.bmp" />
+<Association ClassId="25" Bmp="mutant-25-8-0.bmp" />
+</Class>
+</Classes>
+</Root>
